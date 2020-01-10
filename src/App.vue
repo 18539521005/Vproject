@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
-     <router-view></router-view>
-    </div>
+    <router-view></router-view>
   </div>
 </template>
 
-<style lang="stylus">
-
+<style lang="stylus" scoped>
+    #app{
+      height 100%
+    }
 </style>
