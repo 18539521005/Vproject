@@ -8,7 +8,11 @@ import Send from './sendRouter.js'
 import Rewards from './rewardsRouter.js'
 import Wallet from './walletRouter.js'
 import ShopCar from './shopcarRouter.js'
+// 我的
 import My from './myRouter.js'
+// 登陆
+import Sign from '@/views/Sign'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -21,6 +25,10 @@ const routes = [
   Wallet,
   ShopCar,
   My,
+  {
+    path:'/sign',
+    component:Sign
+  },
 
 ]
 

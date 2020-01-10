@@ -5,6 +5,15 @@ import store from './store'
 import '@/assets/js/font-size.js'
 import '@/assets/css/reset.css'
 import '@/assets/css/iconfont.css'
+import axios from 'axios'
+
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(ElementUI);
+
+Vue.prototype.$axios = axios
+
 
 Vue.config.productionTip = false
 

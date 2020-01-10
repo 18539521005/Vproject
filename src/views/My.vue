@@ -1,7 +1,7 @@
 <template>
     <div class="my">
         <header>
-            <span>立即登陆 ></span>
+            <router-link to="/sign" class="mysign">立即登陆 ></router-link>
             <div class="title">
                 <ul>
                     <li>
@@ -62,9 +62,10 @@ header {
     height 2.5rem
     color #fff
     padding-top 1.1rem
-    span {
+    .mysign {
         font-size 0.33rem
         margin 0 0 1rem 1rem 
+        color #fff
     }
     .title {
         position absolute
