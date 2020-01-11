@@ -1,7 +1,7 @@
 <template>
     <div class="sign">
         <header>
-            <a href="" class="header-left"><span>〈</span></a><span class="header-right">登陆</span>
+            <router-link to="/My" class="header-left"><span>〈</span></router-link><span class="header-right">登陆</span>
         </header>
         <img src="../assets/img/Mysign1.png" alt="">
         <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" class="demo-ruleForm">
@@ -40,7 +40,7 @@ export default {
                 callback();
             }
         };
-        return {
+      return {
         ruleForm: {
           pass: '',
           username: '',
@@ -53,6 +53,7 @@ export default {
             { validator: validateTel, trigger: 'blur' }
           ],
         },
+        myself:{},
         isLoading: false
       };
     },
@@ -65,11 +66,17 @@ export default {
               params: this.ruleForm
             })
             .then(res=>{
+              this.myself = res.data
+              var Newinfo = this.myself
+              this.$store.commit("change",Newinfo)
+              console.log(Newinfo.info.name)
+              this.$store.commit("changeflag",false)
               if (res.data.code === 3000){
                 //存totken
                 //跳转
                 localStorage.setItem("token",res.data.token)
                 this.$router.push('/My')
+                
               }
             })
             .catch(err=>{

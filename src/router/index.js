@@ -12,7 +12,8 @@ import ShopCar from './shopcarRouter.js'
 import My from './myRouter.js'
 // 登陆
 import Sign from '@/views/Sign'
-
+// 个人资料
+import Myself from '@/views/Myself'
 Vue.use(VueRouter)
 
 const routes = [
@@ -29,6 +30,11 @@ const routes = [
     path:'/sign',
     component:Sign
   },
+  {
+    path:'/myself',
+    component:Myself
+  },
+
 
 ]
 

@@ -5,6 +5,7 @@ import store from './store'
 import '@/assets/js/font-size.js'
 import '@/assets/css/reset.css'
 import '@/assets/css/iconfont.css'
+import '@/assets/css/iconfont1.css'
 import axios from 'axios'
 
 import ElementUI from 'element-ui';

@@ -1,7 +1,8 @@
 <template>
     <div class="my">
         <header>
-            <router-link to="/sign" class="mysign">立即登陆 ></router-link>
+            <router-link to="/sign" class="mysign" v-if="$store.state.isShow">立即登陆 ></router-link>
+            <router-link to="/myself" class="mysign" v-else>{{$store.state.myself[0].info.name}}</router-link>
             <div class="title">
                 <ul>
                     <li>
@@ -24,7 +25,7 @@
             </div>
         </header>
         <div class="content">
-            <div class="myself">
+            <div class="myself1">
                 <ul>
                     <li><i class="iconfont icon-text_icon"></i>我的订单</li>
                     <li><i class="iconfont icon-fapiao"></i>发票管理</li>
@@ -35,24 +36,34 @@
             </div>
             <a><img src="../assets/img/My1.png" alt=""></a>
         </div>
+        <footer-nav></footer-nav>
       
     </div>
 </template>
 
 <script type="text/ecmascript-6">
+import FooterNav from '@/components/common/footerNav'
 export default {
     name: "",
     data() {
-        return {}
+        return{
+
+        }
     },
-    components: {},
+    components: {
+        FooterNav
+    },
     methods: {}
 }
 </script>
 
 <style lang="stylus" scoped>
 .my{
-    height 100%
+    display  fixed 
+    top 0
+    left 0
+    bottom 0.6rem
+    overflow hidden
     background #F5F5F5
 }
 header {
@@ -94,10 +105,11 @@ header {
 }
 .content {
     background #F5F5F5
-    height 81%
-    .myself {
+    height 522px
+    padding-top 1rem
+    .myself1 {
         width 95%
-        margin 1rem auto 0
+        margin 0 auto 0
         background #fff
         padding-left 0.3rem
         li {
