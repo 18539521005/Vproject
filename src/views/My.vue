@@ -53,7 +53,13 @@ export default {
     components: {
         FooterNav
     },
-    methods: {}
+    methods: {},
+    beforeCreate(){
+      
+    },
+    created(){
+       console.log(this.$store.state.isShow)
+    }
 }
 </script>
 

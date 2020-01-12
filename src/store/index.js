@@ -28,6 +28,9 @@ export default new Vuex.Store({
     },
     changeflag(state, data) {
       state.isShow = data
+    },
+    changeflag2(state, data) {
+      state.isShow = data
     }
   },
 

@@ -34,7 +34,8 @@ export default {
     methods: {
         quit(){
             localStorage.removeItem("token");
-            this.$router.replace('/sign');
+            this.$store.commit("changeflag2",true)
+            this.$router.replace('/Sign');
             alert('quit')
         },
     },

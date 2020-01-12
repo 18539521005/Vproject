@@ -69,15 +69,16 @@ export default {
               this.myself = res.data
               var Newinfo = this.myself
               this.$store.commit("change",Newinfo)
-              console.log(Newinfo.info.name)
-              this.$store.commit("changeflag",false)
+              
               if (res.data.code === 3000){
                 //存totken
                 //跳转
                 localStorage.setItem("token",res.data.token)
                 this.$router.push('/My')
-                
               }
+               if(localStorage.getItem("token") !== ""){
+                this.$store.commit("changeflag",false)
+               }
             })
             .catch(err=>{
               console.log('err',err);
