@@ -36,7 +36,7 @@ export default {
             localStorage.removeItem("token");
             this.$store.commit("changeflag2",true)
             this.$router.replace('/Sign');
-            alert('quit')
+            alert('已退出登陆')
         },
     },
     created(){

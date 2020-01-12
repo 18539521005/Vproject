@@ -27,7 +27,7 @@
         <div class="content">
             <div class="myself1">
                 <ul>
-                    <li><i class="iconfont icon-text_icon"></i>我的订单</li>
+                    <router-link to="/myorder" tag="li"><i class="iconfont icon-text_icon"></i>我的订单</router-link>
                     <li><i class="iconfont icon-fapiao"></i>发票管理</li>
                     <li><i class="iconfont icon-liwu"></i>兑换优惠</li>
                     <li><i class="iconfont icon-qiyekehu-"></i>企业账户</li>
