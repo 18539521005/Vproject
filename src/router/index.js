@@ -9,6 +9,7 @@ import Rewards from './rewardsRouter.js'
 import Wallet from './walletRouter.js'
 import ShopCar from './shopcarRouter.js'
 import My from './myRouter.js'
+import Details from './details.js'
 Vue.use(VueRouter)
 
 const routes = [
@@ -21,7 +22,7 @@ const routes = [
   Wallet,
   ShopCar,
   My,
-
+  Details
 ]
 
 const router = new VueRouter({

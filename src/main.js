@@ -2,7 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
+import '@/assets/js/font-size.js'
+import '@/assets/css/reset.css'
+import '@/assets/css/iconfont1.css'
+import '../mock/mock.js'
+import axios from 'axios'
+Vue.prototype.$axios = axios
 Vue.config.productionTip = false
 
 new Vue({
