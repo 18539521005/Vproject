@@ -80,7 +80,7 @@
     <hr>
     <div class="list">
       <ul>
-        <router-link v-for="(item,index) in list.sylb" :key="index" to="/goods" tag="li">
+        <router-link v-for="(item,index) in list.sylb" :key="index" to="/details" tag="li">
           <p>{{item.name}}</p>
           <p>{{item.price}}</p>
         </router-link>
