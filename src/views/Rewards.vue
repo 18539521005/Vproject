@@ -3,7 +3,7 @@
 
   <div class="text">
 <div class="top">
-   <h2><router-link  to="/index" ><</router-link></h2>
+   <h2><router-link  to="/index" >〈</router-link></h2>
    <h4>优惠联盟</h4>
 </div>
     <hr>
