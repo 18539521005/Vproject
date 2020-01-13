@@ -1,6 +1,7 @@
 <template>
     <div class="tab-list">
-        <p>文娱 </p>
+        <p>百度网盘 </p>
+        <img src="@/assets/img/lm4.jpg" alt />
     </div>
 </template>
 
@@ -11,5 +12,16 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.tab-list p {
+  margin-top: 0.266667rem;
+  margin-left: 0.266667rem;
+}
 
+.tab-list img {
+  width: 90%;
+  height: 4rem;
+  margin-left .4rem
+  margin-top .133333rem
+  margin-bottom .266667rem
+}
 </style>
