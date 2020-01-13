@@ -63,7 +63,7 @@ export default {
         ) {
           flag = false;
           index = i;
-          break;
+          break
         }
       }
       if (flag) {
