@@ -1,9 +1,4 @@
 <template>
-<<<<<<< HEAD
-    <div class="">
-        首页
-        <router-link to="/rewards">优惠联盟</router-link>
-=======
   <div class="box">
     <div class="swiper-container">
       <div class="swiper-wrapper">
@@ -25,7 +20,6 @@
       </div>
       <!-- 如果需要分页器 -->
       <div class="swiper-pagination"></div>
->>>>>>> fan
     </div>
     <div class="goods">
       <router-link to="/menu" tag="span">
@@ -139,8 +133,6 @@ export default {
 
 <style lang="stylus" scoped>
 
-<<<<<<< HEAD
-=======
 .swiper-container >>> .swiper-pagination-bullet-active {
   background-color: #f00;
 }
@@ -217,5 +209,4 @@ export default {
     margin 10px 5%
   }
 }
->>>>>>> fan
 </style>
