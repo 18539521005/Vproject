@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
-     <router-view></router-view>
-=======
     <router-view></router-view>
->>>>>>> dingyan
   </div>
 </template>
 
