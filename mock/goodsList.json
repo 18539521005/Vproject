@@ -1,0 +1,331 @@
+{
+    "supports": [
+        {
+            "title": "英伦温暖马克杯 ( 红 )",
+            "price": "￥88",
+            "priced": "",
+            "shoumai": "已售卖2300+件"
+        },
+        {
+            "title": "FELLOW卡特陶瓷保温杯",
+            "price": "￥299",
+            "priced": "",
+            "shoumai": "已售卖800+件"
+        },
+        {
+            "title": "[低卡蜜桃味魔芋果冻]",
+            "price": "￥10.5",
+            "priced": "￥16",
+            "shoumai": "已售卖1800+件"
+        },
+        {
+            "title": "[芥末腰果]",
+            "price": "￥9.9",
+            "priced": "￥15",
+            "shoumai": "已售卖3600+件"
+        }
+    ],
+    "xinxuan": [
+        {
+            "title": "luckin实体礼品卡",
+            "price": "￥240",
+            "priced": "",
+            "shoumai": "已售卖9400+件"
+        },
+        {
+            "title": "瑞幸坚果礼盒 ( 840g )",
+            "price": "￥228",
+            "priced": "￥328",
+            "shoumai": "已售卖9400+件"
+        }
+    ],
+    "jingdian": [
+        {
+            "title": "小蓝经典保温杯 ( 2020款 )",
+            "price": "￥108",
+            "priced": "",
+            "shoumai": "已售卖400+件"
+        },
+        {
+            "title": "小白经典保温杯 ( 2020款 )",
+            "price": "￥98",
+            "priced": "",
+            "shoumai": "已售卖100+件"
+        }
+    ],
+    "guaer": [
+        {
+            "title": "[挂耳咖啡]原产地系列试饮装",
+            "price": "￥25.9",
+            "priced": "￥35.9",
+            "shoumai": "已售卖3600+件"
+        },
+        {
+            "title": "[挂耳咖啡]耶加雪菲",
+            "price": "￥29.9",
+            "priced": "￥45.0",
+            "shoumai": "已售卖100+件"
+        },
+        {
+            "title": "[挂耳咖啡]云南普洱",
+            "price": "￥19.9",
+            "priced": "￥29.9",
+            "shoumai": "已售卖700+件"
+        },
+        {
+            "title": "[挂耳咖啡]天堂鸟庄园",
+            "price": "￥24.9",
+            "priced": "￥34.9",
+            "shoumai": "已售卖600+件"
+        },
+        {
+            "title": "[挂耳咖啡]西达摩",
+            "price": "￥29.9",
+            "priced": "￥45.9",
+            "shoumai": "已售卖1300+件"
+        }
+    ],
+    "shunian":[
+        {
+            "title": "奶酪陶瓷杯",
+            "price": "￥98",
+            "priced": "",
+            "shoumai": "已售卖1200+件"
+        },
+        {
+            "title": "鼠年马克杯",
+            "price": "￥98",
+            "priced": "",
+            "shoumai": "已售卖2100+件"
+        }
+    ],
+    "dongri":[
+        {
+            "title": "极光款雪人保温杯",
+            "price": "￥128",
+            "priced": "",
+            "shoumai": "已售卖1200+件"
+        },
+        {
+            "title": "英伦温暖马克杯 ( 蓝 )",
+            "price": "￥88",
+            "priced": "",
+            "shoumai": "已售卖1800+件"
+        }
+    ],
+    
+    "luckinCup":[
+        {
+            "title": "幸运随性杯 ( 浅粉色 )",
+            "price": "￥69",
+            "priced": "",
+            "shoumai": "已售卖2400+件"
+        },
+        {
+            "title": "幸运随性杯 ( 浅蓝色 )",
+            "price": "￥69",
+            "priced": "",
+            "shoumai": "已售卖800+件"
+        },
+        {
+            "title": "幸运随性杯 ( 瑞幸蓝 )",
+            "price": "￥69",
+            "priced": "",
+            "shoumai": "已售卖2400+件"
+        },
+        {
+            "title": "幸运随性杯 ( 西瓜红 )",
+            "price": "￥69",
+            "priced": "",
+            "shoumai": "已售卖1500+件"
+        }
+    ],
+    "luckinCoffee":[
+        {
+            "title": "汤唯签名款小白杯",
+            "price": "￥258",
+            "priced": "",
+            "shoumai": "已售卖500+件"
+        },
+        {
+            "title": "联名陶瓷内壁咖啡杯 ( 黑 )",
+            "price": "￥258",
+            "priced": "",
+            "shoumai": "已售卖300+件"
+        },
+        {
+            "title": "联名陶瓷内壁咖啡杯 ( 蓝 )",
+            "price": "￥258",
+            "priced": "",
+            "shoumai": "已售卖400+件"
+        },
+        {
+            "title": "联名陶瓷内壁咖啡杯 ( 白 )",
+            "price": "￥258",
+            "priced": "",
+            "shoumai": "已售卖100+件"
+        }
+    ],
+    "fengtang":[
+        {
+            "title": "[撩] 系列 春风流苏帆布包",
+            "price": "￥98",
+            "priced": "",
+            "shoumai": "已售卖400+件"
+        },
+        {
+            "title": "[撩] 系列 黑金象印保温杯",
+            "price": "￥299",
+            "priced": "",
+            "shoumai": "已售卖400+件"
+        },
+        {
+            "title": "[撩] 系列 白金象印保温杯",
+            "price": "￥299",
+            "priced": "",
+            "shoumai": "已售卖600+件"
+        },
+        {
+            "title": "[撩] 系列 冯唐马克杯",
+            "price": "￥68",
+            "priced": "",
+            "shoumai": "已售卖600+件"
+        }
+    ],
+    "tanyue":[
+        {
+            "title": "[探月50年]太空随行保温杯",
+            "price": "￥149",
+            "priced": "",
+            "shoumai": "已售卖1000+件"
+        },
+        {
+            "title": "[探月50年]太空中心帆布袋",
+            "price": "￥68",
+            "priced": "",
+            "shoumai": "已售卖1000+件"
+        },
+        {
+            "title": "[探月50年]阿波罗号马克杯",
+            "price": "￥58",
+            "priced": "",
+            "shoumai": "已售卖1000+件"
+        }
+    ],
+    "luckinPop":[
+        {
+            "title": "猫王收音机",
+            "price": "￥399",
+            "priced": "",
+            "shoumai": "已售卖400+件"
+        },
+        {
+            "title": "LAMY狩猎系列宝珠笔",
+            "price": "￥260",
+            "priced": "",
+            "shoumai": "已售卖800+件"
+        },
+        {
+            "title": "Lofree圆点蓝牙机械键盘",
+            "price": "￥399",
+            "priced": "",
+            "shoumai": "已售卖600+件"
+        },
+        {
+            "title": "Lofree薯片蓝牙鼠标",
+            "price": "￥229",
+            "priced": "",
+            "shoumai": "已售卖600+件"
+        },
+        {
+            "title": "Lofree卡特陶瓷保温杯",
+            "price": "￥299",
+            "priced": "",
+            "shoumai": "已售卖800+件"
+        },
+        {
+            "title": "单向历2020日历 ( 曙红 )",
+            "price": "￥108",
+            "priced": "",
+            "shoumai": "已售卖500+件"
+        },
+        {
+            "title": "单向历2020日历 ( 铸黑 )",
+            "price": "￥98",
+            "priced": "",
+            "shoumai": "已售卖100+件"
+        },
+        {
+            "title": "单向历2020黑金特别款",
+            "price": "￥188",
+            "priced": "",
+            "shoumai": "已售卖100+件"
+        }
+    ],
+    "jianguo":[
+        {
+            "title": "瑞幸坚果礼盒 ( 840g )",
+            "price": "￥228",
+            "priced": "￥328",
+            "shoumai": "已售卖200+件"
+        },
+        {
+            "title": "每日坚果礼盒 ( 750g )",
+            "price": "￥107",
+            "priced": "￥207",
+            "shoumai": "已售卖700+件"
+        }
+    ],
+    "luckinNuts":[
+        {
+            "title": "[榴莲腰果]",
+            "price": "￥12.5",
+            "priced": "￥19",
+            "shoumai": "已售卖4200+件"
+        },
+        {
+            "title": "[芥末腰果]",
+            "price": "￥9.9",
+            "priced": "￥15",
+            "shoumai": "已售卖3800+件"
+        },
+        {
+            "title": "[海苔腰果]",
+            "price": "￥9.9",
+            "priced": "￥15",
+            "shoumai": "已售卖2200+件"
+        },
+        {
+            "title": "[蜂蜜腰果]",
+            "price": "￥9.9",
+            "priced": "￥15",
+            "shoumai": "已售卖2100+件"
+        }
+    ],
+    "luckinLucky":[
+        {
+            "title": "[低卡蜜桃味魔芋果冻]",
+            "price": "￥10.5",
+            "priced": "￥16",
+            "shoumai": "已售卖1800+件"
+        },
+        {
+            "title": "[高笑美饼干]",
+            "price": "￥8.9",
+            "priced": "￥13.5",
+            "shoumai": "已售卖700+件"
+        },
+        {
+            "title": "[有机番薯芯]",
+            "price": "￥10.5",
+            "priced": "￥16",
+            "shoumai": "已售700+件"
+        },
+        {
+            "title": "[经典有机甘栗仁]",
+            "price": "￥9.9",
+            "priced": "￥15",
+            "shoumai": "已售卖1000+件"
+        }
+    ]
+}
