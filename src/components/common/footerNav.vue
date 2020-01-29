@@ -15,9 +15,18 @@
 export default {
     name: "",
     data() {
+<<<<<<< HEAD
+        return{
+
+        }
+    },
+    components: {
+    },
+=======
         return {}
     },
     components: {},
+>>>>>>> fan
     methods: {}
 }
 </script>
@@ -32,7 +41,10 @@ export default {
     height 1rem
     line-height .6rem
     background #fff
+<<<<<<< HEAD
+=======
     z-index 100
+>>>>>>> fan
     ul {
         display flex
         justify-content space-around
