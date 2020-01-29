@@ -1,16 +1,21 @@
 const path = require('path')
 const url = require('url')
 <<<<<<< HEAD
+<<<<<<< HEAD
 const goodsList = require("./mock/goodsList.json")
 =======
 const findList = require('./mock/findList.json')
 const seller = require("./mock/data.json")
 >>>>>>> zp
+=======
+const sylb = require("./mock/sylb.json")
+>>>>>>> fan
 
 function resolve(dir) {
     return path.join(__dirname, dir)
 }
 
+<<<<<<< HEAD
 module.exports = {
     devServer: {
         port: 8080,
@@ -30,5 +35,23 @@ module.exports = {
             })
         },
 >>>>>>> zp
+=======
+module.exports ={
+    devServer:{
+        port: 8080,
+        before(app) {
+            app.get("/api/getSeller",(req,res)=>{
+                    
+                    res.json({sylb})
+              
+            })
+        }
+    },
+    chainWebpack(config) {
+        config.resolve.alias
+            //用com这个别名代表./src/components的完整路径
+            .set('com', resolve('./src/components'))
+            .set('page', resolve('./src/views'))
+>>>>>>> fan
     }
 }
