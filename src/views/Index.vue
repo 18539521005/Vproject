@@ -1,6 +1,7 @@
 <template>
     <div class="">
         首页
+        <router-link to="/rewards">优惠联盟</router-link>
     </div>
 </template>
 
@@ -16,4 +17,5 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+
 </style>

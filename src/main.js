@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import router from '@/router'
 import store from './store'
+<<<<<<< HEAD
 <<<<<<< HEAD
 import '@/assets/js/font-size.js'
 import '@/assets/css/reset.css'
@@ -24,6 +25,13 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.prototype.$axios = axios
 
 Vue.use(ElementUI);
+=======
+//重置字体大小.回复默认
+import '@/assets/js/font-size.js'
+import '@/assets/css/reset.css'
+//引入字体文件
+import '@/assets/css/iconfont1.css'
+>>>>>>> wangziwen
 
 Vue.config.productionTip = false
 
