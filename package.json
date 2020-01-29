@@ -8,6 +8,10 @@
   },
   "dependencies": {
     "axios": "^0.19.1",
+<<<<<<< HEAD
+=======
+    "better-scroll": "^1.15.2",
+>>>>>>> zp
     "core-js": "^3.4.4",
     "element-ui": "^2.13.0",
     "mockjs": "^1.1.0",
