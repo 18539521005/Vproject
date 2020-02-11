@@ -1,15 +1,11 @@
 import Mock from 'mockjs'
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 // Mock.setup({ //表示 400 毫秒 后才会返回响应内容；
 //     timeout: 400
 // })
 Mock.setup({
     timeout: '2000-6000' //表示响应时间介于 200 和 600 毫秒之间。默认值是'10-100'。
 })
->>>>>>> fan
 // 拦截请求
 Mock.mock(RegExp('/api/getFindList.php'+'.*'),'get',{
 	"code": 0,
@@ -32,8 +28,7 @@ Mock.mock('/api/getGoodsList.php','get',{
         "content"  : "@cparagraph()", //简短描述
         "thumb"  : "@dataImage('200x200')" //缩略图
     }]
-<<<<<<< HEAD
-=======
+})
 // Mock.setup({ //表示 400 毫秒 后才会返回响应内容；
 //     timeout: 400
 // })
@@ -81,8 +76,5 @@ Mock.mock('/api/getGoodsList.php', 'get', {
                 "content": "@cparagraph()", //简短描述
                 "thumb": "@Image('50x50','#333999')" //缩略图
         }]
->>>>>>> zp
-=======
->>>>>>> fan
 })
 
