@@ -3,7 +3,7 @@
         <header>
             <router-link to="/My" class="header-left"><span>〈</span></router-link><span class="header-right">登陆</span>
         </header>
-        <img src="../assets/img/Mysign1.png" alt="">
+        <img src="" alt="">
         <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" class="demo-ruleForm">
             <el-form-item prop="username">
                 <el-input type="text" v-model="ruleForm.username" autocomplete="off" placeholder="请输入手机号"></el-input>

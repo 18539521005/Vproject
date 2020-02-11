@@ -3,19 +3,19 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="@/assets/img/f1.png" alt />
+          <img src="" alt />
         </div>
         <div class="swiper-slide">
-          <img src="@/assets/img/f2.jpeg" alt />
+          <img src="" alt />
         </div>
         <div class="swiper-slide">
-          <img src="@/assets/img/f3.jpg" alt />
+          <img src="" alt />
         </div>
         <div class="swiper-slide">
-          <img src="@/assets/img/f4.jpg" alt />
+          <img src="" alt />
         </div>
         <div class="swiper-slide">
-          <img src="@/assets/img/f5.jpg" alt />
+          <img src="" alt />
         </div>
       </div>
       <!-- 如果需要分页器 -->
@@ -23,34 +23,34 @@
     </div>
     <div class="goods">
       <router-link to="/menu" tag="span">
-        <img src="@/assets/img/f1.png" alt />
+        <img src="" alt />
       </router-link>
       <router-link to="/wallet" tag="div">
-        <img src="@/assets/img/f2.jpeg" alt />
+        <img src="" alt />
       </router-link>
     </div>
     <ul class="discounts">
       <router-link to="/rewards" tag="li">
-        <img src="@/assets/img/f7.jpg" alt />
+        <img src="" alt />
       </router-link>
       <router-link to="/send" tag="li">
-        <img src="@/assets/img/f4.jpg" alt />
+        <img src="" alt />
       </router-link>
       <router-link to="/Goods" tag="li">
-        <img src="@/assets/img/f3.jpg" alt />
+        <img src="" alt />
       </router-link>
     </ul>
     <p>为你推荐</p>
     <div class="recommend">
       <ul>
         <router-link to="/details" tag="li">
-          <img src="@/assets/img/f7.jpg" alt />
+          <img src="" alt />
         </router-link>
         <router-link to="/details" tag="li">
-          <img src="@/assets/img/f4.jpg" alt />
+          <img src="" alt />
         </router-link>
         <router-link to="/details" tag="li">
-          <img src="@/assets/img/f7.jpg" alt />
+          <img src="" alt />
         </router-link>
       </ul>
     </div>
@@ -59,19 +59,19 @@
       <div class="swiper-container" id="aff">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="@/assets/img/f7.jpg" alt />
+            <img src="" alt />
           </div>
           <div class="swiper-slide">
-            <img src="@/assets/img/f3.jpg" alt />
+            <img src="" alt />
           </div>
           <div class="swiper-slide">
-            <img src="@/assets/img/f4.jpg" alt />
+            <img src="" alt />
           </div>
           <div class="swiper-slide">
-            <img src="@/assets/img/f1.png" alt />
+            <img src="" alt />
           </div>
           <div class="swiper-slide">
-            <img src="@/assets/img/f5.jpg" alt />
+            <img src="" alt />
           </div>
         </div>
       </div>

@@ -7,19 +7,19 @@
     <ul>
       <li>免费送咖啡
           <span>马上送</span>
-          <img src="@/assets/img/f8.jpg" alt="">
+          <img src="" alt="">
       </li>
       <li>咖啡红包
           <span>发红包</span>
-          <img src="@/assets/img/f9.jpg" alt="">
+          <img src="" alt="">
       </li>
       <li>礼品卡（商品劵）
           <span>一键定制</span>
-          <img src="@/assets/img/f10.jpg" alt="">
+          <img src="" alt="">
       </li>
       <li>礼品卡（现金）
           <span>一键定制</span>
-          <img src="@/assets/img/f11.jpg" alt="">
+          <img src="" alt="">
       </li>
     </ul>
   </div>

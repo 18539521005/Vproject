@@ -13,16 +13,16 @@
 
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="@/assets/img/lm1.jpg" alt />
+          <img src="" alt />
         </div>
         <div class="swiper-slide">
-          <img src="@/assets/img/lm2.png" alt />
+          <img src="" alt />
         </div>
         <div class="swiper-slide">
-          <img src="@/assets/img/lm3.jpg" alt />
+          <img src="" alt />
         </div>
         <div class="swiper-slide">
-          <img src="@/assets/img/lm4.jpg" alt />
+          <img src="" alt />
         </div>
       </div>
 

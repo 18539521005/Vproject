@@ -4,13 +4,13 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="@/assets/images/1.jpg" alt />
+            <img src="" alt />
           </div>
           <div class="swiper-slide">
-            <img src="@/assets/images/4.jpg" alt />
+            <img src="" alt />
           </div>
           <div class="swiper-slide">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
           </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -39,7 +39,7 @@
         </div>
         <router-link tag="li" to="" class="shops" v-for="(item,index) in list.supports" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -60,7 +60,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.xinxuan" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -81,7 +81,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.jingdian" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -102,7 +102,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.guaer" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -123,7 +123,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.shunian" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -144,7 +144,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.dongri" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -165,7 +165,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.luckinCup" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -186,7 +186,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.luckinCoffee" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -207,7 +207,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.fengtang" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -228,7 +228,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.tanyue" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -249,7 +249,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.luckinPop" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -270,7 +270,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.jianguo" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -291,7 +291,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.luckinNuts" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
@@ -312,7 +312,7 @@
         </div>
         <div class="shops" v-for="(item,index) in list.luckinLucky" :key="index">
           <div class="shops-list">
-            <img src="@/assets/images/3.jpg" alt />
+            <img src="" alt />
             <p class="shop-title">{{item.title}}</p>
             <p class="shop-price">
               {{item.price}}
