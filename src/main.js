@@ -7,14 +7,14 @@ import '@/assets/js/font-size.js'
 import '@/assets/css/iconfont.css'
 import '@/assets/css/iconfont1.css'
 import '../mock/mock.js'
+
 import axios from 'axios'
+Vue.prototype.$axios = axios
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(ElementUI);
-
-Vue.prototype.$axios = axios
 
 Vue.config.productionTip = false
 

@@ -36,5 +36,6 @@ module.exports = {
                 .set('com', resolve('./src/components'))
                 .set('page', resolve('./src/views'))
         }
+
     }
 }
