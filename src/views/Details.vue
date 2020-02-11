@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <img src="@/assets/img/f12.jpg" alt />
+    <img src="" alt />
     <div class="name">
       <h1>拿铁</h1>
       <p>Latte</p>

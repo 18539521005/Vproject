@@ -34,7 +34,7 @@
                     <li><i class="iconfont icon-kefu"></i>我的客服</li>
                 </ul>
             </div>
-            <a><img src="../assets/img/My1.png" alt=""></a>
+            <a><img src="" alt=""></a>
         </div>
         <footer-nav></footer-nav>
       
