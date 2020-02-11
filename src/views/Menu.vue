@@ -26,7 +26,7 @@ import Swiper from "swiper";
 import "swiper/css/swiper.min.css";
 import MenuTools from "@/components/menu/MenuTools";
 import MenuFood from "@/components/menu/MenuFood";
-import FooterNav from '@/components/common/FooterNav'
+import FooterNav from '@/components/common/footerNav'
 
 export default {
   name: "",

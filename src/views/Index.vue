@@ -94,7 +94,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import FooterNav from "@/components/common/FooterNav";
+import FooterNav from "@/components/common/footerNav";
 import Swiper from "swiper";
 import "swiper/css/swiper.min.css";
 export default {
