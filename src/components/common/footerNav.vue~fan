@@ -25,7 +25,6 @@ export default {
 
 <style lang="stylus" scoped>
 .footerNav {
-   
     position fixed
     bottom 0
     left 0
@@ -33,6 +32,7 @@ export default {
     height 1rem
     line-height .6rem
     background #fff
+    z-index 100
     ul {
         display flex
         justify-content space-around
